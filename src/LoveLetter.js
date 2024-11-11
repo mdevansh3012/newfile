@@ -20,7 +20,7 @@ const styles = {
     boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
     overflow: "hidden",
     position: "relative",
-  },
+  },  
   header: {
     background: "linear-gradient(45deg, #ff6b95, #ff8fab)",
     color: "white",
