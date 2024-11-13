@@ -560,18 +560,7 @@ const LoveStoryLocket = () => {
                         {index === 0 ? paragraph.slice(1) : paragraph}
                       </p>
 
-                      {/* Decorative elements between paragraphs */}
-                      {index < letter.split("\n\n").length - 1 && (
-                        <div className="flex justify-center my-8">
-                          <motion.p
-                            className="font-bold text-2xl text-rose-700 mt-2"
-                            transition={{ duration: 2, repeat: Infinity }}
-                            style={signatureStyle}
-                          >
-                            Devansh
-                          </motion.p>
-                        </div>
-                      )}
+                     
                     </motion.div>
                   ))}
                 </div>
